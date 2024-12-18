@@ -1,6 +1,7 @@
 from tqdm.auto import tqdm
 from torchmetrics.classification import MulticlassCalibrationError
 from torchmetrics.classification import MulticlassAccuracy
+import torch
 
 DEVICE = 'cuda'
 NUM_CLASSES = 10
