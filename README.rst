@@ -22,6 +22,11 @@
 
 Abstract
 ========
+Uncertainty quantification in deep learning is essential for assessing the reliability of model predictions. Despite their success in various tasks, neural networks often fail to provide meaningful measures of uncertainty, limiting their trustworthiness. We explore model-related uncertainty in neural networks, focusing on calibration techniques that align predicted probabilities with true frequencies, thus improving the interpretability and reliability of predictions.
+
+Experiments were conducted using a ResNet-18 model trained on the CIFAR-10 dataset. Various loss functions and additional terms were employed to assess their impact on model calibration and expected calibration error (ECE). Results indicate that specific modifications can enhance calibration without significantly compromising accuracy, evidenced by reduced ECE values during validation.
+
+This research is expected to contribute to the theoretical understanding of uncertainty in deep learning and proposes directions for improving uncertainty quantification, particularly in areas where accurate risk assessment is critical.
 
 
 Research publications
@@ -34,5 +39,4 @@ Presentations at conferences on the topic of research
 
 Software modules developed as part of the study
 ======================================================
-1. A python package *mylib* with all implementation `here <https://github.com/intsystems/ProjectTemplate/tree/master/src>`_.
-2. A code with all experiment visualisation `here <https://github.comintsystems/ProjectTemplate/blob/master/code/main.ipynb>`_. Can use `colab <http://colab.research.google.com/github/intsystems/ProjectTemplate/blob/master/code/main.ipynb>`_.
+1.
